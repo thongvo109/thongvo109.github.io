@@ -1,6 +1,8 @@
-export { HeaderContainer } from './HeaderContainer'
-export { HeaderWrapper } from './HeaderWrapper'
-export { HeaderTitle } from './HeaderTitle'
-export { HeaderSubtitle } from './HeaderSubtitle'
-export { Header } from './Header'
-export { GithubLogin } from './GithubLogin'
+export { Avatar } from "./Avatar";
+export { GithubLogin } from "./GithubLogin";
+export { Header } from "./Header";
+export { HeaderContainer } from "./HeaderContainer";
+export { HeaderIcons } from "./HeaderIcons";
+export { HeaderSubtitle } from "./HeaderSubtitle";
+export { HeaderTitle } from "./HeaderTitle";
+export { HeaderWrapper } from "./HeaderWrapper";

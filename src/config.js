@@ -25,7 +25,7 @@ export const config = {
   header: {
     backgroundColor: "#f1f6f8", // can be a CSS gradient
     backgroundColorDark: "#4C566A",
-    titleColor: "#ff5252",
+    titleColor: "#ffffff",
     titleColorDark: "#16a085",
     subtitleColor: "#37474f",
     subtitleColorDark: "#D8DEE9",
