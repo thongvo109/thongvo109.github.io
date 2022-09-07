@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-blog-github/static/css/main.3fc8841a.chunk.css",
-    "main.js": "/react-blog-github/static/js/main.5e30c690.chunk.js",
-    "main.js.map": "/react-blog-github/static/js/main.5e30c690.chunk.js.map",
-    "runtime-main.js": "/react-blog-github/static/js/runtime-main.442d08e4.js",
-    "runtime-main.js.map": "/react-blog-github/static/js/runtime-main.442d08e4.js.map",
-    "static/js/2.0fddbb96.chunk.js": "/react-blog-github/static/js/2.0fddbb96.chunk.js",
-    "static/js/2.0fddbb96.chunk.js.map": "/react-blog-github/static/js/2.0fddbb96.chunk.js.map",
-    "index.html": "/react-blog-github/index.html",
-    "precache-manifest.d3e9baf95c4ade5a3ac8d9a2ccba29c2.js": "/react-blog-github/precache-manifest.d3e9baf95c4ade5a3ac8d9a2ccba29c2.js",
-    "service-worker.js": "/react-blog-github/service-worker.js",
-    "static/css/main.3fc8841a.chunk.css.map": "/react-blog-github/static/css/main.3fc8841a.chunk.css.map",
-    "static/js/2.0fddbb96.chunk.js.LICENSE": "/react-blog-github/static/js/2.0fddbb96.chunk.js.LICENSE"
+    "main.css": "/static/css/main.3fc8841a.chunk.css",
+    "main.js": "/static/js/main.38d2ad9a.chunk.js",
+    "main.js.map": "/static/js/main.38d2ad9a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f059a11.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f059a11.js.map",
+    "static/js/2.6ea7129d.chunk.js": "/static/js/2.6ea7129d.chunk.js",
+    "static/js/2.6ea7129d.chunk.js.map": "/static/js/2.6ea7129d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7fe52d633d11714cc383845bc3333968.js": "/precache-manifest.7fe52d633d11714cc383845bc3333968.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3fc8841a.chunk.css.map": "/static/css/main.3fc8841a.chunk.css.map",
+    "static/js/2.6ea7129d.chunk.js.LICENSE": "/static/js/2.6ea7129d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.442d08e4.js",
-    "static/js/2.0fddbb96.chunk.js",
+    "static/js/runtime-main.2f059a11.js",
+    "static/js/2.6ea7129d.chunk.js",
     "static/css/main.3fc8841a.chunk.css",
-    "static/js/main.5e30c690.chunk.js"
+    "static/js/main.38d2ad9a.chunk.js"
   ]
 }
