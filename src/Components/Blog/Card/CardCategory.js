@@ -16,6 +16,7 @@ const StyledCategory = styled.div`
 `
 
 export const CardCategory = ({ value }) => (
+  
   <StyledCategory
     key={value.id}
     style={{ backgroundColor: `#${value.color}` }}>

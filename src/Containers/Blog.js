@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import { useQuery } from "@apollo/react-hooks";
 import { gql } from "apollo-boost";
-import { useQuery } from '@apollo/react-hooks';
+import React, { useEffect, useState } from "react";
 
-import { config } from "../config";
+import { BlogContainer } from "../Components/Blog";
+import { Card } from "../Components/Blog/Card";
+import { Loader } from "../Components/Common";
 import { Header } from "../Components/Header";
-import { Loader } from '../Components/Common'
-import { BlogContainer } from '../Components/Blog'
-import { Card } from '../Components/Blog/Card'
+import { config } from "../config";
 
 const GET_POSTS = gql`
 {
   repository(owner: "${config.githubUserName}", name: "${config.githubRepo}") {
-    issues(first: 100, states: OPEN, filterBy: { labels: "blog" }, orderBy: { direction: DESC, field: CREATED_AT }) {
+    issues(first: 100, states: OPEN, orderBy: { direction: DESC, field: CREATED_AT }) {
       nodes {
         title
         body
@@ -36,7 +36,7 @@ const GET_POSTS = gql`
     }
   }
 }
-`
+`;
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -45,11 +45,11 @@ const Blog = () => {
   useEffect(() => {
     if (!loading) {
       if (error) {
-        console.error(error)
+        console.error(error);
       }
 
       if (data) {
-        setPosts(data?.repository?.issues?.nodes)
+        setPosts(data?.repository?.issues?.nodes);
       }
     }
   }, [loading, error, data]);
@@ -58,16 +58,16 @@ const Blog = () => {
     <>
       <Header />
       <BlogContainer>
-        {
-          loading
-          ? <Loader />
-          : posts.map((v, i) => {
-              return <Card blog={v} key={i} />;
-            })
-        }
+        {loading ? (
+          <Loader />
+        ) : (
+          posts.map((v, i) => {
+            return <Card blog={v} key={i} />;
+          })
+        )}
       </BlogContainer>
     </>
   );
-}
+};
 
 export default Blog;
